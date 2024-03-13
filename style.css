@@ -1,0 +1,39 @@
+.btn{
+    margin-top: 200px;
+    margin-left: 10px;
+    padding: 50px;
+    border-radius: 50px ;
+    border-color: aqua;
+    color: white;
+    font-size: large;
+    font-style: oblique;
+    animation-name: loader;
+    animation-duration:3s;
+    animation-direction: alternate;
+    
+}
+.btn1{
+    margin-top: 200px;
+    margin-left: 10px;
+    padding: 50px;
+    border-radius: 50px ;
+    border-color: aqua;
+    color: white;
+    font-size: large;
+    font-style: italic;
+    animation-name: loader;
+    animation-duration:3s;
+    animation-direction: alternate;
+    
+}
+@keyframes loader {
+    from{
+        transform: rotate(0deg)
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
+*{
+    background-color: black;
+}
